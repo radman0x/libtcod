@@ -40,6 +40,7 @@
 #include <libtcod_utility.h>
 #include <libtcod_version.h>
 
+//#define TCOD_CONSOLE_SUPPORT
 #ifdef TCOD_CONSOLE_SUPPORT
 
 #if defined( TCOD_VISUAL_STUDIO )

@@ -111,6 +111,7 @@
 /* DLL export */
 #ifndef TCODLIB_API
 #ifdef TCOD_WINDOWS
+#define LIBTCOD_EXPORTS
 #ifdef LIBTCOD_EXPORTS
 #define TCODLIB_API __declspec(dllexport)
 #else
